@@ -1,0 +1,59 @@
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+}
+
+.demo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dad-joke {
+  height: 100px;
+}
+
+.counter-box {
+  background-color: lightgray;
+  width: 300px;
+  height: 250px;
+  margin-bottom: 50px;
+  border-radius: 5px;
+}
+
+.counter-box.bio-rad {
+  background-color: #00a650;
+  color: white;
+}
+
+.buttons-box {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.name-box {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  margin-top: 4px;
+  width: 50%;
+  border-radius: 5px;
+  height: 20px;
+  padding: 8px;
+  outline: none;
+  border: none;
+}
