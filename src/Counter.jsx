@@ -1,10 +1,10 @@
 import React from 'react';
-import getJokeId, { dadJokeUrl } from './getJokeId';
+// import getJokeId, { dadJokeUrl } from './getJokeId';
 
 export default function Counter() {
   return (
     <section className="demo">
-      <h1 className="dad-joke"></h1>
+      <h1 className="dad-joke">I'm not very funny :(</h1>
       <div className={`counter-box`}>
         <h1>Counter</h1>
         <h3 className="count">0</h3>
